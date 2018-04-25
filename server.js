@@ -23,7 +23,7 @@ app.set('views', path.join(__dirname, './views'));
 
 binance.options({
   APIKEY: 'p7oze8VPMZhvfielHpY0jq3mtGat3uPDDPVRfnieatdZnkFrLRAugfHgmghJFsfa',
-  APISECRET: 'IjFYnTE0xu7gpPQ1iVOrlMk4UaEPQQpPepmDgNwVW5pJjCx9jNTVuuoYQqLkolfb',
+  APISECRET: '',
   useServerTime: true, // If you get timestamp errors, synchronize to server time at startup
   test: true // If you want to use sandbox mode where orders are simulated
 });
